@@ -1,3 +1,3 @@
 ﻿using DailyDiary;
 
-new ModeChange().Run();
+new ModeChange().Mode();
