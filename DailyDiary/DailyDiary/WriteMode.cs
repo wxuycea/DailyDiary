@@ -6,5 +6,9 @@ using System.Threading.Tasks;
 
 namespace DailyDiary {
     internal class WriteMode {
+        public void WriteNote() {
+            Console.Clear();
+            string dateTime = DateTime.Now.ToString("YYYY-MM-DD");
+        }
     }
 }

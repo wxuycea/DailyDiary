@@ -13,7 +13,7 @@ namespace DailyDiary {
             Console.WriteLine("[1] 읽기모드");
             Console.WriteLine("[2] 쓰기모드");
 
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             int mode = Convert.ToInt32(input);
 
             try {
@@ -22,7 +22,7 @@ namespace DailyDiary {
                         readMode.Run();
                         break;
                     case 2:
-                        WriteMode.Run();
+                        WriteMode.WriteNote();
                         break;
                     default:
                         Console.WriteLine("1과 2 중에 선택해주세요.");
