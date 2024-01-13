@@ -28,8 +28,7 @@ namespace DailyDiary {
                         Console.WriteLine("1과 2 중에 선택해주세요.");
                         break;
                 }
-            }
-            catch (Exception e) { Console.WriteLine(e.Message); }
+            }catch (Exception e) { Console.WriteLine(e.Message); }
         }
 
     }
