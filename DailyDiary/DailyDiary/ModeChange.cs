@@ -19,16 +19,16 @@ namespace DailyDiary {
             try {
                 switch(mode) {
                     case 1:
-                        readMode.Run();
+                        readMode.ReadNote();
                         break;
                     case 2:
-                        WriteMode.WriteNote();
+                        writeMode.WriteNote();
                         break;
                     default:
                         Console.WriteLine("1과 2 중에 선택해주세요.");
                         break;
                 }
-            }catch (Exception e) { Console.WriteLine(e.Message); }
+            } catch (Exception e) { Console.WriteLine(e.Message); }
         }
 
     }

@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace DailyDiary {
     internal class ReadMode {
+        public void ReadNote() {
+            Console.Clear();
+        }
     }
 }
